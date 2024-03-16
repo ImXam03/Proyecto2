@@ -1,29 +1,90 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: 'Monserrat', sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap');
+
+.container {
+    max-width: 100%;
+    width: 100%;
+    margin: 0 auto;
+}
+.header-nails-studio {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
 }
 
-body{
-    background-color: #a9aaaa ;
-    list-style: none;
+@media ( min-width: 568px ) {
+    .header-nails-studio {
+        flex-direction: row;
+    }
+}
+
+/** Navbar Style */
+nav.navbar {
+    background-color: #504747;
+}
+nav.navbar ul {
+    list-style:none;
+    margin:0;
+    padding:0;
+}
+
+nav.navbar ul li:hover {
+    background-color: #504747;
+}
+nav.navbar ul li a {
     color: black;
+    font-size: clamp( 1.4rem, 2vw, 2.4rem );
+    padding: clamp( .6rem, 2vw, 1rem);
+    text-decoration: none;
+    font-size: 1.4rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+}
+nav.navbar ul li a:hover {
+    color: white;
+}
+nav.navbar ul li ul li:hover {
+    background-color: #504747;
 }
 
-header {
-position: relative;
-width: 100%;
-min-width: 900px;
-padding: 20px 0;
-display: flex;
-align-items: center;
-background-color: #24252a;
-
+/** Navbar Dropdown */
+nav.dropdown ul {
+   display: flex;
+   flex-direction: column;
+}
+nav.dropdown ul li {
+   display: flex;
+   flex-direction: column;
+   position: relative;
+}
+nav.dropdown ul li ul {
+   background-color: #504747;
+   display: none;
+   position: relative;
+   width: 100%;
 }
 
-.main-menu{
-    background-color: white;
-    color: black;
+@media screen and ( min-width: 768px ) {
+    nav.dropdown ul {
+      flex-direction: row;
+    }
+    nav.dropdown ul li {
+      display: flex;
+      position: relative;
+    }
+    nav.dropdown ul li ul {
+      display: none;
+      left: 0;
+      position: absolute;
+      top: 100%;
+    }
+    nav.dropdown ul li ul li ul.menu.menu-level-3:where( .menu-4, .menu-5 ) {
+       position: relative;
+    }
+    nav.dropdown ul li:hover ul {
+      display: flex;
+      flex-direction: column;
+      width: max-content;
+    }
 }
 
