@@ -1,0 +1,17 @@
+#main{
+    background-color: #362D27;
+}
+.H1-MAIN{
+    color: aliceblue;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin-bottom: 3rem;
+}
+.TodasCartas{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    gap:2rem;
+    padding: 5rem;
+}
