@@ -15,13 +15,6 @@
     gap:2rem;
     padding: 5rem;
 }
-.cardJ{
-    color: white;
-    height: 2;
-}
-.cardS{
-    color: white;
-}
-.cardM{
-    color: white;
+.cartas-largas{
+    margin-left: 10rem;
 }
