@@ -1,0 +1,29 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Monserrat', sans-serif;
+}
+
+body{
+    background-color: #a9aaaa ;
+    list-style: none;
+    color: black;
+}
+
+header {
+position: relative;
+width: 100%;
+min-width: 900px;
+padding: 20px 0;
+display: flex;
+align-items: center;
+background-color: #24252a;
+
+}
+
+.main-menu{
+    background-color: white;
+    color: black;
+}
+
