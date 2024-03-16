@@ -1,0 +1,46 @@
+
+footer {
+    background-color: #362D27;
+  }
+
+  .empresa {
+    font-size: x-large;
+    color: white;
+    margin-left: 1rem;
+  }
+
+  .contactos {
+    font-size: large;
+    text-decoration: none;
+  }
+  .footer_text{
+    color: white;
+    text-decoration: none;
+  }
+
+  .number{
+      color: white;
+      text-decoration: underline;
+  }
+  .mail{
+      color: white;
+      text-decoration: underline;
+      image-resolution: 1px;
+  }
+  
+  .social_media{
+    color: white;
+    list-style: none;
+  }
+
+  .social_link{
+    color: white;
+    text-decoration: underline;
+  }
+
+  .footer_title{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: -2rem;
+  }
