@@ -1,4 +1,4 @@
-#main{
+main{
     background-color: #362D27;
 }
 .H1-MAIN{
@@ -17,4 +17,9 @@
 }
 .cartas-largas{
     margin-left: 10rem;
+    padding-bottom: 3rem;
+}
+.espacio{
+    margin-bottom: -3rem;
+    margin-top: 3rem;
 }
