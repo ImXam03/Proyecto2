@@ -6,6 +6,7 @@ footer {
   .empresa {
     font-size: x-large;
     color: white;
+    margin-left: 1rem;
   }
 
   .contactos {
@@ -24,6 +25,7 @@ footer {
   .mail{
       color: white;
       text-decoration: underline;
+      image-resolution: 1px;
   }
   
   .social_media{
@@ -34,4 +36,11 @@ footer {
   .social_link{
     color: white;
     text-decoration: underline;
+  }
+
+  .footer_title{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: -2rem;
   }
