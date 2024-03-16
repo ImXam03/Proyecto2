@@ -1,0 +1,27 @@
+
+footer {
+    background-color: #362D27;
+  }
+
+  .empresa {
+    font-size: x-large;
+    color: white;
+  }
+
+  .contactos {
+    font-size: large;
+    text-decoration: none;
+  }
+  .footer_text{
+    color: white;
+    text-decoration: none;
+  }
+
+  .number{
+      color: white;
+      text-decoration: underline;
+  }
+  .mail{
+      color: white;
+      text-decoration: underline;
+  }
