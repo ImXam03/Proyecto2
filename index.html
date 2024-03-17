@@ -7,11 +7,33 @@
     <link rel="stylesheet" href="Bootstrap\css\bootstrap.css">
     <link rel="stylesheet" href="style\style_footer.css">
     <link rel="stylesheet" href="/style/style_main.css">
-    <title>ESQUI</title>
+    <link rel="stylesheet" href="./style/style_header.css">
+    <title>ESQUI</title> 
+    
 </head>
 
 <body>
+<!--INICIO header-------------------------------------------------------------------------------------------->
 
+    <header class="container">
+        <nav class="navbar dropdown header-nails-studio">
+            <div class="logo"><img src="" alt="">
+            </div>
+            <ul class="menu menu-1 menu-level-1">
+                <li><a href="#main"><span>Home</span></a></li>
+                <li><a href="#card-title"><span>Team Esqui</span></a>
+                    <ul class="menu menu-2 menu-level-2">
+                        <li><a href="#jhoan"><span>Jhoan Forero</span></a></li>
+                        <li><a href="#Samuel"><span>Samuel Vasquez</span></a></li>
+                        <li><a href="#Mateo"><span>Mateo Rada</span></a></li>
+                    </ul>
+                </li>
+                <li><a href="#"><span>Footer</span></a></li>
+            </ul>
+        </nav>
+        </header>
+
+<!--INICIO main-------------------------------------------------------------------------->
 
     <main id="main">
 
@@ -42,7 +64,7 @@
       </div>
 
     </div>
-<hr style="color: white;">
+    <hr style="color: white;">
 
     <div class="cartas-largas">
 
@@ -53,7 +75,7 @@
               </div>
               <div class="col-md-8">
                 <div class="card-body">
-                  <h5 class="card-title">Jhoan Forero</h5>
+                  <h5 id="jhoan">Jhoan Forero</h5>
                   <p style="font-family: Arial, Helvetica, sans-serif;" class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque natus reiciendis cum ut id. Ea esse voluptate nemo culpa error aut delectus architecto, distinctio consectetur suscipit porro? Corporis, alias eius.</p>
                 
                 </div>
@@ -69,7 +91,7 @@
               </div>
               <div class="col-md-8">
                 <div class="card-body">
-                  <h5 class="card-title">Samuel Vasquez</h5>
+                  <h5 id="Samuel">Samuel Vasquez</h5>
                   <p style="font-family: Arial, Helvetica, sans-serif;" class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque natus reiciendis cum ut id. Ea esse voluptate nemo culpa error aut delectus architecto, distinctio consectetur suscipit porro? Corporis, alias eius.</p>
                 </div>
               </div>
@@ -84,7 +106,7 @@
               </div>
               <div class="col-md-8">
                 <div class="card-body">
-                  <h5 class="card-title">Mateo Rada</h5>
+                  <h5 id="Mateo">Mateo Rada</h5>
                   <p style="font-family: Arial, Helvetica, sans-serif;" class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque natus reiciendis cum ut id. Ea esse voluptate nemo culpa error aut delectus architecto, distinctio consectetur suscipit porro? Corporis, alias eius.</p>
                 
                 </div>
@@ -95,8 +117,9 @@
     </div>
     <div class="espacio"></div>
     </main>
+
     <!--INICIO footer-------------------------------------------------------------------------->
-    <footer class="text-center text-lg-start text-muted">
+    <footer id="text-center text-lg-start text-muted">
         <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
             <div class="footer_title">
                 <h6 class="text-uppercase fw-bold mb-4">
@@ -196,5 +219,4 @@
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 
 </body>
-
 </html>
