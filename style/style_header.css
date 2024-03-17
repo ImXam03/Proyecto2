@@ -47,7 +47,7 @@ nav.navbar ul li a:hover {
     color: white;
 }
 nav.navbar ul li ul li:hover {
-    background-color: #504747;
+    background-color: black;
 }
 
 /** Navbar Dropdown */

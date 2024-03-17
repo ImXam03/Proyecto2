@@ -9,7 +9,7 @@ main{
     align-items: center;
     margin-bottom: 3rem;
 }
-.TodasCartas {
+#TodasCartas {
     justify-content: center;
     display: flex;
     gap: 2rem;
@@ -22,4 +22,14 @@ main{
 .espacio{
     margin-bottom: -3rem;
     margin-top: 3rem;
+}
+
+.card-text{
+    text-decoration: none;
+    colo 
+}
+
+a {
+    color: black;
+    text-decoration: initial;
 }
